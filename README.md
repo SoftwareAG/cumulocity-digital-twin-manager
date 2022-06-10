@@ -58,7 +58,14 @@ After following these instructions, the application will be deployed on the tena
 
 ## Any comments, suggestions or ideas?
 
-Let us know, if the current way for setting up and maintaining an asset hierarchy meets your needs and expectations. For any suggestions, please navigate to [Issues](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/issues) and open a new issue with all the relevant details. Thanks!
+Let us know, if the current way for setting up and maintaining an asset hierarchy meets your needs and expectations. For any suggestions, please navigate to [Issues](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/issues) and open a new issue with all the relevant details. Make sure to add a label, which will help us to follow up on your issue much faster: 
+
+🐞 use "bug" for everyting that is not working
+📖 use "documentation" for any feedback in regards of the documentation
+💡 use "idea" for every new idea, feature request or suggestion
+❓ use "support" for questions or anything which needs further assistance
+
+** Thanks for contributing!**
 
 ## Contact
 
