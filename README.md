@@ -56,6 +56,10 @@ For installation:
 
 After following these instructions, the application will be deployed on the tenant and is ready for use. In the application switcher on the top right you can now select the `Digital Twin Manager` application.
 
+## Any comments, suggestions or ideas?
+
+Let us know, if the current way for setting up and maintaining an asset hierarchy meets your needs and expectations. For any suggestions, please navigate to [Issues](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/issues) and open a new issue with all the relevant details. Thanks!
+
 ## Contact
 
 TBD
