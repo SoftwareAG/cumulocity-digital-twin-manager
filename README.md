@@ -2,9 +2,9 @@
 
 ## Overview
 
-The `Digital Twin Manager` enables you to create and manage assets around your physical connected devices in Cumulocity IoT. Assets can be used to structure and describe devices in logical hierarchies as encountered in the real world environment. In addition, assets can be extended and enriched with custom data using the `Properties Library`.
+The `Digital Twin Manager` enables you to create and manage assets around your physical connected devices in Cumulocity IoT. Assets can be used to structure and describe devices in logical hierarchies as encountered in the real world environment. In addition, assets in Cumulocity IoT can be extended and enriched with addtional information using the `Properties Library`.
 
-// screenshot
+![digital_twin_manager](https://user-images.githubusercontent.com/57527184/173009445-1bff54b7-3a80-4d3e-8ace-84ca9371debc.png)
 
 ## Components
 
@@ -13,33 +13,34 @@ The `Digital Twin Manager` enables you to create and manage assets around your p
 The `Digital Twin Manager` consists of several components, which support you to create your assets and asset hierarchies:
 
 * `Property library` - Create your own custom properties (simple or complex) to define how data should be stored on an asset
-* `Asset types` - Use asset types to describe what custom properties will be used for an instance of an asset
+* `Asset types` - Define asset types to describe the blueprint of your assets
 * `Localization` - Dynamically translate asset type and custom property descriptions to multiple languages
-* `Assets navigator` - View and navigate within your asset hierarchies
+* `Assets navigator` - Manage your asset hierarchies
 
 ### Property Library
 
-The `Property Library` can be used to create your own custom properties to define how data should be stored on an asset. These custom properties can be either complex (nested object) or simple (key-value pair). Furthermore, you choose a specific data types for each property you define. As of now the `Property Libary` supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
+The Property Library can be used to create your own custom properties to define how data should be stored on an asset. These custom properties can be either complex (nested object) or simple (key-value pair). Furthermore, you can choose a specific data type for each property you define. As of now, the Property Libary supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
 
-// screenshot
+![property_library](https://user-images.githubusercontent.com/57527184/173009481-76937af9-11b5-430f-8f59-24a9cdf60e11.png)
 
 ### Asset Types
 
-`Asset Types` serve as a blueprint for your assets and define how they are structured. An `Asset Type` defines what custom properties an asset should have. Additionally, you can specify relationships between multiple `Asset Type`, which will be respected when you create your actual asset hierarchies. Once the `Asset Type` is created, it can be used to create various assets.
+Asset Types serve as a blueprint for your assets and define how they are structured. An Asset Type defines what custom properties an asset should have. Additionally, you can specify relationships between multiple Asset Types, which will be respected when you create your actual asset hierarchies. Once the Asset Type is created, it can be used to create various assets.
 
-// screenshot
+![asset_type_creation](https://user-images.githubusercontent.com/57527184/173009509-9f945459-08c0-4421-8caa-09c428b25a68.png)
 
 ### Localization
 
-You can use the `Localization` component to define translations for your asset types and custom properties. These translations can be provided for all supported languages in Cumulocity IoT. This component requires to have the 
+You can use the Localization component to define translations for your asset types and custom properties. These translations can be provided for all supported languages in Cumulocity IoT. This component requires to have the `feature-branding` feature subscribed for your Cumulocity tenant.
 
-// screenshot of list
+![localization](https://user-images.githubusercontent.com/57527184/173009548-0552a022-491d-461d-9530-f4bef9d01d23.png)
 
 ### Assets Navigator
 
-The `Assets Navigator` is the starting point to create your asset hierarchies based on the asset types and custom properties, you have defined previously. Once you have created your asset hierarchies you can use the `Assets Navigator` to view and manage them. 
+The Assets Navigator is the starting point to create your asset hierarchies based on the asset types and custom properties, you have defined previously. Once you have created your asset hierarchies you can use the Assets Navigator to view and manage them. 
 
-// add two screenshots
+![asset_creation](https://user-images.githubusercontent.com/57527184/173009586-50212b91-64b8-46ec-b376-3228ce5e1f0e.png)
+
 
 ## Installation
 
