@@ -1,2 +1,60 @@
-# cumulocity-digital-twin-manager
-Cumulocity Digital Twin Manager
+# Cumulocity Digital Twin Manager
+
+## Overview
+
+The `Digital Twin Manager` enables you to create and manage assets around your physical connected devices in Cumulocity IoT. Assets can be used to structure and describe devices in logical hierarchies as encountered in the real world environment. In addition, assets can be extended and enriched with custom data using the `Properties Library`.
+
+// screenshot
+
+## Components
+
+### Overview
+
+The `Digital Twin Manager` consists of several components, which support you to create your assets and asset hierarchies:
+
+* `Property library` - Create your own custom properties (simple or complex) to define how data should be stored on an asset
+* `Asset types` - Use asset types to describe what custom properties will be used for an instance of an asset
+* `Localization` - Dynamically translate asset type and custom property descriptions to multiple languages
+* `Assets navigator` - View and navigate within your asset hierarchies
+
+### Property Library
+
+The `Property Library` can be used to create your own custom properties to define how data should be stored on an asset. These custom properties can be either complex (nested object) or simple (key-value pair). Furthermore, you choose a specific data types for each property you define. As of now the `Property Libary` supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
+
+// screenshot
+
+### Asset Types
+
+`Asset Types` serve as a blueprint for your assets and define how they are structured. An `Asset Type` defines what custom properties an asset should have. Additionally, you can specify relationships between multiple `Asset Type`, which will be respected when you create your actual asset hierarchies. Once the `Asset Type` is created, it can be used to create various assets.
+
+// screenshot
+
+### Localization
+
+You can use the `Localization` component to define translations for your asset types and custom properties. These translations can be provided for all supported languages in Cumulocity IoT. This component requires to have the 
+
+// screenshot of list
+
+### Assets Navigator
+
+The `Assets Navigator` is the starting point to create your asset hierarchies based on the asset types and custom properties, you have defined previously. Once you have created your asset hierarchies you can use the `Assets Navigator` to view and manage them. 
+
+// add two screenshots
+
+## Installation
+
+The `Digital Twin Manager` is shipped as a standalone application for now. This means it will be installed as a separate application, which provides all the features of the `Digital Twin Manager` as described in the component section. The standalone application is available in the [release section](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/releases) and can be downloaded.
+
+For installation:
+
+1. Open the `Administration` application in your Cumulocity tenant
+2. Navigate to `Applications` --> `Own applications`
+3. Click on `Add application`
+4. Select `Upload web application` in the modal dialog
+5. Select the zip archive, which you downloaded from the release section, to upload it to the tenant
+
+After following these instructions, the application will be deployed on the tenant and is ready for use. In the application switcher on the top right you can now select the `Digital Twin Manager` application.
+
+## Contact
+
+TBD
