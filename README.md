@@ -66,7 +66,3 @@ Let us know, if the current way for setting up and maintaining an asset hierarch
 * ❓ use "support" for questions or anything that needs further assistance
 
 **Thanks for your contribution!**
-
-## Contact
-
-TBD
