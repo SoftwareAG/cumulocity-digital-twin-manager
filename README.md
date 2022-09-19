@@ -16,6 +16,7 @@ The `Digital Twin Manager` consists of several components, which support you to 
 * `Asset types` - Define asset types to describe the blueprint of your assets
 * `Localization` - Dynamically translate asset type and custom property descriptions to multiple languages
 * `Assets navigator` - Manage your asset hierarchies
+* `Bulk import` - To import the entire asset hierarchy with all the assets at once.
 
 ### Property Library
 
@@ -40,6 +41,9 @@ You can use the Localization component to define translations for your asset typ
 The Assets Navigator is the starting point to create your asset hierarchies based on the asset types and custom properties, you have defined previously. Once you have created your asset hierarchies you can use the Assets Navigator to view and manage them. 
 
 ![asset_creation](https://user-images.githubusercontent.com/57527184/173009586-50212b91-64b8-46ec-b376-3228ce5e1f0e.png)
+
+### Bulk import
+To import all the assets of a particular asset hierarchy at once, use the bulk import feature. For each asset hierarchy, a CSV template is provided. Fill in the required details in this template and upload the file to create the assets in a bulk for the selected asset type.
 
 
 ## Installation
