@@ -43,8 +43,77 @@ The Assets Navigator is the starting point to create your asset hierarchies base
 ![asset_creation](https://user-images.githubusercontent.com/57527184/173009586-50212b91-64b8-46ec-b376-3228ce5e1f0e.png)
 
 ### Bulk import
-To import all the assets of a particular asset hierarchy at once, use the bulk import feature. For each asset hierarchy, a CSV template is provided. Fill in the required details in this template and upload the file to create the assets in a bulk for the selected asset type.
+To import all the assets of a particular asset hierarchy at once, use the bulk import feature. Microservice is being used to download the template and import the assets. 
+To use the Bulk Import feature, you must provide the permission for **Digital Twin** role. Once the permissions are assigned, the bulk import feature can be used.
 
+Note: If the permissions are not assigned, then the CSV template will not be downloaded correctly.
+
+![Bulk Import](https://user-images.githubusercontent.com/107403521/191242984-ff5174ca-1a02-454e-9cd6-7aa7444635b0.PNG)
+
+### Download a CSV template for bulk import
+
+1. On click of Import assets button in the assets page, a dialog box appears with an option to **Choose asset type**.  
+	* If no asset types are created yet, only the asset type "Group" is listed in the dropdown. 
+	* If you have added the asset types, all the root asset types are listed in the dropdown. 
+2. Select the asset type for which you want to create the asset hierarchy. 
+3. On selection, two additional options appear.
+	* **Drop file here** - upload the CSV template as a file, for importing assets in bulk.
+	* **Download Template** - download the CSV template for the selected asset type.
+4. Click **Download Template** to download the CSV template.
+
+The CSV template has the following fields:
+
+1.	AssetType / DeviceType : Enter the key of the asset type
+2.	AssetName : Provide the name of the asset you want to create
+3.	Path : Remains blank when you create a root asset. For a child asset, provide a path up to the root asset
+4.	Device ID / External ID : If the asset being created has a device associated with it, then provide the Device ID of the device here
+5.	Description : briefly describes the asset being created
+6.	Custom properties for the asset type : 6th column onwards (in the CSV template), all the custom properties for the root asset types and all its subsequent child asset types are listed
+
+Note: Modify the excel settings to provide the date in a YYYY-MM-DD format. This prevents an auto-correct of the date on input.
+
+To provide a file input as a custom property value, the file must first be uploaded to a Cumulocity IoT tenant using the API.
+
+Refer to the Binaries API https://cumulocity.com/api/10.13.0/#operation/postBinariesCollectionResource in the openapi for details on how to upload a file.
+
+The binary ID in the API response must be provided as input for the custom property field with type "file" in the CSV template.
+
+If the type is "Boolean", the input field must be either "true" or "false".
+If the type is "enumeration", then the input field must be in the list of values specified during creation of the custom property.
+If the type is "text" or "number" and custom criteria were provided during custom property creation, then the input value in CSV template must fulfill all the custom property criteria.
+
+### To upload a CSV template
+
+1. Upload the previously filled and saved CSV template in the **Drop file here** section.
+
+2. If all the inputs are provided correctly, the bulk import is successful, resulting in a success notification. The asset hierarchy and its assets are created successfully.
+
+3. View the newly created assets in the **Assets** page.
+
+If the inputs are not provided in the correct format, the bulk import fails with validation errors, resulting in a **Failed asset imports** notification, showing the issue types, for example, an invalid template or an incorrect asset hierarchy.
+No assets are created.
+
+If the bulk import fails, review the reported issues and try again.
+
+### Partial import
+
+If the asset hierarchy already exists, and you want to import more assets, it can be achieved by a partial import.
+
+To import the child asset hierarchy or the child assets:
+
+1. Fill in the details for the child asset hierarchy in the CSV template.
+
+	Note: From any hierarchy level, the template will be downloaded only for its child hierarchy.
+	Assets must only be imported for the child hierarchy.
+
+2. Enter the details for the child assets in the CSV template.
+
+3. Upload the CSV template in the **Drop file here** section in the **Import assets** dialog.
+
+If all details are mentioned correctly in the CSV template, the child asset hierarchy is created successfully.
+
+An unsuccessful partial import will result in a **Failed asset imports** notification, showing the validation issues.
+Review the reported issues and try again.
 
 ## Installation
 
