@@ -14,8 +14,8 @@
 	- [Asset Navigation](#assets-navigator)
 	- [Bulk import](#bulk-import)
 	  - [Download Template](#download-template)
-		- [Upload Template](#upload-template)
-		- [Partial Import](#partial-import)
+	  - [Upload Template](#upload-template)
+	  - [Partial Import](#partial-import)
 ## Overview
 
 The `Digital Twin Manager` enables you to create and manage assets around your physical connected devices in Cumulocity IoT. Assets can be used to structure and describe devices in logical hierarchies as encountered in the real world environment. In addition, assets in Cumulocity IoT can be extended and enriched with addtional information using the `Properties Library`.
