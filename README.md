@@ -22,9 +22,9 @@ The `Digital Twin Manager` enables you to create and manage assets around your p
 
 ![digital_twin_manager](https://user-images.githubusercontent.com/57527184/173009445-1bff54b7-3a80-4d3e-8ace-84ca9371debc.png)
 
-This is the sub assets page which includes [Asset Navigator](#assets-navigator), name of the parent asset and its properties, list of child assets.
+This is the sub assets screen which includes [Asset Navigator](#assets-navigator), name of the parent asset and its properties, list of child assets.
 
-`Note: Digital Twin Manager supports Cumulocity UI and microservice version of 10.15 and above`
+`Note: Digital Twin Manager is supported on Cumulocity UI and microservice version of 10.14 and above`
 
 ## Installation
 
@@ -41,8 +41,9 @@ and can be downloaded.
 5. Select `Upload web application` in the modal dialog
 6. Select the zip archive, which you downloaded from the release section, to upload it to the tenant
 
-After following these instructions, the application will be deployed on the tenant and is ready for use. In the application switcher on the top right you can now select the
-`Digital Twin Manager` application.
+![GIF for DTM Installation](https://user-images.githubusercontent.com/107403521/194924558-bbe7800b-077d-4422-bc3a-535d6671c0b0.gif)
+
+After following these instructions, the application will be deployed on the tenant and is ready for use. In the application switcher on the top right you can now select the `Digital Twin Manager` application.
 
 If you want to use `Import assets` functionality, then the microservice needs to be installed.
 
@@ -75,8 +76,6 @@ After following these instructions, the microservice will be deployed on the ten
 Once the permission is assigned, the bulk import feature can be used.
 
 `Note: If the permissions are not assigned, then the CSV template will not be downloaded correctly.`
-
-![GIF for DTM Installation](https://user-images.githubusercontent.com/107403521/194924558-bbe7800b-077d-4422-bc3a-535d6671c0b0.gif)
 
 ## Features
 
