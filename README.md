@@ -11,7 +11,7 @@
 	- [Overview](#overview-of-features)
 	- [Property library](#property-library)
 	- [Asset types](#asset-types)
-	- [localization](#localization)
+	- [Localization](#localization)
 	- [Asset Navigation](#assets-navigator)
 	- [Bulk import](#bulk-import)
 
@@ -80,16 +80,16 @@ Once the permission is assigned, the bulk import feature can be used.
 
 To use Localization feature, you need to subscribe for `Feature Branding`. The following are the steps:-
 
-If you are an administrator for `Management tenant`, then
+If you are an administrator of `Management tenant`, then
 
-1) Navigate to tenants -> subtenants
+1) Navigate to Tenants -> Subtenants
 2) Select the subtenant for which you want to use this feature.
-3) Under applications, subscribe for Feature branding.
+3) Under Applications, subscribe for Feature branding.
 
 If you are an administrator of the tenant in which localization needs to be enabled, then
 
 1) Navigate to Administration -> Ecosystem -> Applications. Under features, make sure you have subscribed for Feature Branding.
-2) Navigate to Settings -> Branding, and click on Apply. Once it is applied make sure you can see `public options` under Ecosystem -> Applications.
+2) Navigate to Settings -> Branding, and click on Apply. Once done make sure you can see `public options` under Ecosystem -> Applications.
 
 `Note: If you don't have the access for the tenants, please contact your administrator.`
 
@@ -124,6 +124,8 @@ Asset Types serve as a blueprint for your assets and define how they are structu
 ### Localization
 
 You can use the Localization component to define translations for your asset types and custom properties. These translations can be provided for all supported languages in Cumulocity IoT. This component requires to have the `feature-branding` feature subscribed for your Cumulocity tenant.
+
+[Subscribing for Feature-branding](#subscribing-for-feature-branding)
 
 ![localization](https://user-images.githubusercontent.com/57527184/173009548-0552a022-491d-461d-9530-f4bef9d01d23.png)
 
