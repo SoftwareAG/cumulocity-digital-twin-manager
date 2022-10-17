@@ -1,4 +1,9 @@
-#### Download template
+## Table of Contents
+   - [Download template](#download-template)
+   - [Upload Template](#upload-template)
+   - [Partial Import](#partial-import)
+
+### Download template
 
 1. On click of Import assets button in the assets page, a dialog box appears with an option to **Choose asset type**.
 	* If no asset types are created yet, only the asset type "Group" is listed in the dropdown.
@@ -96,7 +101,7 @@ Refer to the [Binaries API](# https://cumulocity.com/api/10.13.0/#operation/post
 </tbody>
 </table>
 
-#### Upload template
+### Upload template
 
 `Note: Before uploading the CSV template make sure that the asset types which are being used in the template should be newly created.`
 
@@ -110,7 +115,7 @@ If the inputs are not provided in the correct format, the bulk import fails with
 
 If the bulk import fails, review the reported issues and try again.
 
-#### Partial import
+### Partial import
 
 If the asset hierarchy already exists, and you want to import more assets, it can be achieved by a partial import.
 
