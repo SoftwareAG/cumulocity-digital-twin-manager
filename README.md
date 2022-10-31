@@ -78,18 +78,18 @@ Once the permission is assigned, the bulk import feature can be used.
 
 ### Subscribing for Feature branding
 
-To use Localization feature, you need to subscribe for `Feature Branding`. The following are the steps:-
+To use Localization feature, you must have public-options web application installed on the tenant.  One of the ways you can get the public-options web application is by subscribing to **Feature Branding**.  The following are the steps:
 
-If you are an administrator of `Management tenant`, then
+Log in to the corresponding management tenant as an administrator
+1. Navigate to **Tenants > Subtenants**
+2. Select the subtenant for which you want to add this feature.
+3. Under **Applications** subscribe for **Feature branding**.
 
-1) Navigate to Tenants -> Subtenants
-2) Select the subtenant for which you want to use this feature.
-3) Under Applications, subscribe for Feature branding.
+Complete the setup by following the below steps on the tenant where you want to use Localization feature
 
-If you are an administrator of the tenant in which localization needs to be enabled, then
-
-1) Navigate to Administration -> Ecosystem -> Applications. Under features, make sure you have subscribed for Feature Branding.
-2) Navigate to Settings -> Branding, and click on Apply. Once done make sure you can see `public options` under Ecosystem -> Applications.
+1. Log in as an administrator of the tenant.
+2. Navigate to **Administration > Ecosystem > Applications**. Under **Features**, make sure **Feature Branding** is subscribed.
+3. Navigate to **Settings > Branding**, and click on Apply. Once done, make sure you can see public-options web application under **Ecosystem > Applications**.
 
 `Note: If you don't have the access for the tenants, please contact your administrator.`
 
