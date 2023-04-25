@@ -8,7 +8,11 @@
     "assetModels": [
       {
         "c8y_IsAssetType": {
-          "allowedAssetTypes": [],
+          "allowedAssetTypes": [
+            {
+              "id": "60113222"
+            }
+          ],
           "isNoneChildAssetsAllowed": "false",
           "icon": {
             "name": "building",
@@ -16,6 +20,7 @@
           },
           "properties": []
         },
+        "id": "13112220",
         "label": "Building",
         "name": "building",
         "description": "",
@@ -23,7 +28,11 @@
       },
       {
         "c8y_IsAssetType": {
-          "allowedAssetTypes": [],
+          "allowedAssetTypes": [
+            {
+              "id": "87112221"
+            }
+          ],
           "isNoneChildAssetsAllowed": "false",
           "icon": {
             "name": "",
@@ -31,6 +40,7 @@
           },
           "properties": []
         },
+        "id": "60113222",
         "label": "Floor",
         "name": "floor",
         "description": "",
@@ -46,6 +56,7 @@
           },
           "properties": []
         },
+        "id": "87112221",
         "label": "Room",
         "name": "room",
         "description": "",
