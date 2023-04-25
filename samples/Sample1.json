@@ -1,7 +1,7 @@
 {
   "name": "Building Asset Model",
   "description": "Test",
-  "tags": ["BMS", "MAchine Portal"]
+  "tags": ["BMS", "MAchine Portal"],
   "assetModels": [
     {
       "c8y_IsAssetType": {
