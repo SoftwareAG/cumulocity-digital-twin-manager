@@ -4,5 +4,39 @@
     "tags": [
       "SAG"
     ]
-   
+     "assetModels": [
+      {
+        "c8y_IsAssetType": {
+          "allowedAssetTypes": [],
+          "isNoneChildAssetsAllowed": "false",
+          "icon": {
+            "name": "building",
+            "category": "city"
+          },
+          "properties": [{id: '60142311'}]
+        },
+        "id": "13112220",
+        "label": "Building",
+        "name": "building",
+        "description": "",
+        "depth": 0
+      }
+    ],
+    "assetProperties": [ 
+     {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "60142311",
+      "description": "",
+      "label": "asdasd",
+      "name": "asdasda",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "asdasd",
+        "properties": { "asdasda": { "type": "string" } },
+        "required": [],
+        "key": "asdasda"
+      }
+    }]
   }
