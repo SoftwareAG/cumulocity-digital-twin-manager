@@ -13,7 +13,7 @@
             "name": "building",
             "category": "city"
           },
-          "properties": [{id: '60142311'}]
+          "properties": [{"id": "60142311"}]
         },
         "id": "13112220",
         "label": "Building",
