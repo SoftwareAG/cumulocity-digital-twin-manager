@@ -1,0 +1,81 @@
+{
+  "name": "Edwards Vaccum",
+  "description": "Sample Edwards Vaccum",
+  "tags": ["SAG", "DTM"],
+  "assetModels": [
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [{ "id": "602106015" }],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": { "name": "office", "category": "city" },
+        "properties": [{ "id": "662115" }]
+      },
+      "id": "952106453",
+      "label": "Customer",
+      "name": "customer",
+      "description": "",
+      "depth": 0,
+      "c8y_Global": {}
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [{ "id": "262106423" }],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": { "name": "warehouse", "category": "city" },
+        "properties": []
+      },
+      "id": "602106015",
+      "label": "Factory",
+      "name": "factory",
+      "description": "",
+      "depth": 1,
+      "c8y_Global": {}
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [{ "id": "102091181" }],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": { "name": "robot", "category": "devicesAndSensors" },
+        "properties": []
+      },
+      "id": "262106423",
+      "label": "Line",
+      "name": "line",
+      "description": "",
+      "depth": 2,
+      "c8y_Global": {}
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": { "name": "air-shaft", "category": "devicesAndSensors" },
+        "properties": []
+      },
+      "id": "102091181",
+      "label": "Vacuum chamber",
+      "name": "vacuum_chamber",
+      "description": "",
+      "depth": 3,
+      "c8y_Global": {}
+    }
+  ],
+  "assetProperties": [
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "662115",
+      "description": "",
+      "label": "Customer Number",
+      "name": "customerNumber",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Customer Number",
+        "properties": { "customerNumber": { "type": "number" } },
+        "required": [],
+        "key": "customerNumber"
+      }
+    }
+  ]
+}
