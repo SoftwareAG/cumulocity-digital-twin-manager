@@ -9,8 +9,8 @@
 	- [Subscribing for Feature Branding](#subscribing-for-feature-branding)
 - [Features](#features)
 	- [Overview](#overview-of-features)
-	- [Property library](#property-library)
-	- [Asset types](#asset-types)
+	- [Asset properties](#asset-properties)
+	- [Asset models](#asset-models)
 	- [Localization](#localization)
 	- [Asset tree](#asset-tree)
 	- [Bulk import](#bulk-import)
@@ -22,7 +22,6 @@ The `Digital Twin Manager` enables you to create and manage assets around your p
 The home screen of the DTM application gives an overview of the application. You can see the number of asset models, asset properties and assets available at a glance. You can add asset properties, asset models and assets using the quick links.
 
 ![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/813dd29c-ca61-4542-b912-5d354b60b44b)
-
 
 <div align="center"><i>Sub assets screen displaying the details of the selected asset.</i></div><br>
 
@@ -102,37 +101,37 @@ Complete the setup by following the below steps on the tenant where you want to 
 
 The `Digital Twin Manager` consists of the following features, which support you to create your assets and asset hierarchies:
 
-* `Property library` - Create your own custom properties (simple or complex) to define how data should be stored on an asset
-* `Asset types` - Define asset types to describe the blueprint of your assets
+* `Asset properties` - Create your own asset properties (simple or complex) to define how data should be stored on an asset
+* `Asset models` - Define asset models to describe the blueprint of your assets
 * `Localization` - Dynamically translate asset type and custom property descriptions to multiple languages
 * `Asset tree` - View and navigate to the subassets page of the asset hierarchy.
 * `Bulk import` - To import the entire asset hierarchy with all the assets at once.
 
-### Property Library
+### Asset properties
 
-The Property Library can be used to create your own custom properties to define how data should be stored on an asset. These custom properties can be either complex (nested object) or simple (key-value pair). Furthermore, you can choose a specific data type for each property you define. As of now, the Property Library supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
+The Asset properties can be used to create your own asset properties to define how data should be stored on an asset. These asset properties can be either complex (nested object) or simple (key-value pair). Furthermore, you can choose a specific data type for each property you define. As of now, the Asset properties supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
 
 ![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/9ccb90fe-4514-4af0-93cb-cf331599c739)
 
-<div align="center"><i>Property Library screen displaying the list of properties and an option to add or edit the property.</i></div>
+<div align="center"><i>Asset properties screen displaying the list of properties and an option to add or edit the property.</i></div>
 
-### Asset Types
+### Asset models
 
-Asset Types serve as a blueprint for your assets and define how they are structured. An Asset Type defines what custom properties an asset should have. Additionally, you can specify relationships between multiple Asset Types, which will be respected when you create your actual asset hierarchies. Once the Asset Type is created, it can be used to create various assets.
+Asset models serve as a blueprint for your assets and define how they are structured. An Asset model defines what asset properties an asset should have. Additionally, you can specify relationships between multiple Asset models, which will be respected when you create your actual asset hierarchies. Once the Asset model is created, it can be used to create various assets.
 
 ![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/5711f9d5-ce3d-4fa9-acf5-99e0fd38595f)
 
-<div align="center"><i>Edit Asset Type screen displaying the details of the selected asset type.</i></div>
+<div align="center"><i>Edit Asset model screen displaying the details of the selected asset model.</i></div>
 
 ### Localization
 
-You can use the Localization component to define translations for your asset types and custom properties. These translations can be provided for all supported languages in Cumulocity IoT. This component requires to have the `feature-branding` feature subscribed for your Cumulocity tenant.
+You can use the Localization component to define translations for your asset models and asset properties. These translations can be provided for all supported languages in Cumulocity IoT. This component requires to have the `feature-branding` feature subscribed for your Cumulocity tenant.
 
 [Subscribing for Feature-branding](#subscribing-for-feature-branding)
 
 ![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/a1769673-119b-4fcb-a71f-110cd53de945)
 
-<div align="center"><i>Localization screen displaying the list of translated terms for your asset types and custom properties.</i></div>
+<div align="center"><i>Localization screen displaying the list of translated terms for your asset models and asset properties.</i></div>
 
 ### Asset tree
 
