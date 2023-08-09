@@ -12,16 +12,19 @@
 	- [Property library](#property-library)
 	- [Asset types](#asset-types)
 	- [Localization](#localization)
-	- [Asset Navigation](#assets-navigator)
+	- [Asset tree](#asset-tree)
 	- [Bulk import](#bulk-import)
 
 ## Overview
 
 The `Digital Twin Manager` enables you to create and manage assets around your physical connected devices in Cumulocity IoT. Assets can be used to structure and describe devices in logical hierarchies as encountered in the real world environment. In addition, assets in Cumulocity IoT can be extended and enriched with addtional information using the `Properties Library`.
 
-![digital_twin_manager](https://user-images.githubusercontent.com/57527184/173009445-1bff54b7-3a80-4d3e-8ace-84ca9371debc.png)
+The home screen of the DTM application gives an overview of the application. You can see the number of asset models, asset properties and assets available at a glance. You can add asset properties, asset models and assets using the quick links.
 
-<div align="center"><i>Sub assets screen displaying the details of an asset selected in Asset Navigator on the left.</i></div><br>
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/813dd29c-ca61-4542-b912-5d354b60b44b)
+
+
+<div align="center"><i>Sub assets screen displaying the details of the selected asset.</i></div><br>
 
 `Note: Digital Twin Manager is supported on Cumulocity UI and microservice version of 10.14 and above`
 
@@ -40,7 +43,7 @@ and can be downloaded.
 5. Select `Upload web application` in the modal dialog
 6. Select the zip archive, which you downloaded from the release section, to upload it to the tenant
 
-![GIF for DTM Installation](https://user-images.githubusercontent.com/107403521/194924558-bbe7800b-077d-4422-bc3a-535d6671c0b0.gif)
+![DTM installation](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/164a1ec9-343a-4354-88a1-1e799073b38f)
 
 After following these instructions, the application will be deployed on the tenant and is ready for use. In the application switcher on the top right you can now select the `Digital Twin Manager` application.
 
@@ -102,14 +105,14 @@ The `Digital Twin Manager` consists of the following features, which support you
 * `Property library` - Create your own custom properties (simple or complex) to define how data should be stored on an asset
 * `Asset types` - Define asset types to describe the blueprint of your assets
 * `Localization` - Dynamically translate asset type and custom property descriptions to multiple languages
-* `Assets navigator` - Manage your asset hierarchies
+* `Asset tree` - View and navigate to the subassets page of the asset hierarchy.
 * `Bulk import` - To import the entire asset hierarchy with all the assets at once.
 
 ### Property Library
 
 The Property Library can be used to create your own custom properties to define how data should be stored on an asset. These custom properties can be either complex (nested object) or simple (key-value pair). Furthermore, you can choose a specific data type for each property you define. As of now, the Property Library supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
 
-![property_library](https://user-images.githubusercontent.com/57527184/173009481-76937af9-11b5-430f-8f59-24a9cdf60e11.png)
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/9ccb90fe-4514-4af0-93cb-cf331599c739)
 
 <div align="center"><i>Property Library screen displaying the list of properties and an option to add or edit the property.</i></div>
 
@@ -117,7 +120,7 @@ The Property Library can be used to create your own custom properties to define 
 
 Asset Types serve as a blueprint for your assets and define how they are structured. An Asset Type defines what custom properties an asset should have. Additionally, you can specify relationships between multiple Asset Types, which will be respected when you create your actual asset hierarchies. Once the Asset Type is created, it can be used to create various assets.
 
-![asset_type_creation](https://user-images.githubusercontent.com/57527184/173009509-9f945459-08c0-4421-8caa-09c428b25a68.png)
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/5711f9d5-ce3d-4fa9-acf5-99e0fd38595f)
 
 <div align="center"><i>Edit Asset Type screen displaying the details of the selected asset type.</i></div>
 
@@ -127,23 +130,23 @@ You can use the Localization component to define translations for your asset typ
 
 [Subscribing for Feature-branding](#subscribing-for-feature-branding)
 
-![localization](https://user-images.githubusercontent.com/57527184/173009548-0552a022-491d-461d-9530-f4bef9d01d23.png)
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/a1769673-119b-4fcb-a71f-110cd53de945)
 
 <div align="center"><i>Localization screen displaying the list of translated terms for your asset types and custom properties.</i></div>
 
-### Assets Navigator
+### Asset tree
 
-The Assets Navigator is the starting point to create your asset hierarchies based on the asset types and custom properties, you have defined previously. Once you have created your asset hierarchies you can use the Assets Navigator to view and manage them.
+The Asset tree tab is used to view the child assets hierarchy and can also navigate to the subassets page. You can add child assets using **Add asset** button and can also import the child assets using **Import assets** button.
 
-![asset_creation](https://user-images.githubusercontent.com/57527184/173009586-50212b91-64b8-46ec-b376-3228ce5e1f0e.png)
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/80b4eb9c-edbc-40f7-b270-8b91e2de2835)
 
-<div align="center"><i>Asset Navigator screen displaying the asset hierarchy of the selected asset type.</i></div>
+<div align="center"><i>Asset tree tab displaying the child asset hierarchy of the selected asset.</i></div>
 
 ### Bulk import
 To import all the assets of a particular asset hierarchy at once, use the bulk import feature. Microservice is being used to download the template and import the assets. To use the Bulk import feature, user must be part of a role that has `Admin` permission level for **Digital twin** type.
 [Configure a role for Bulk Import](#configure-a-role-to-use-the-bulk-import-feature)
 
-![Bulk Import](https://user-images.githubusercontent.com/107403521/191242984-ff5174ca-1a02-454e-9cd6-7aa7444635b0.PNG)
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/94d1b02e-8a25-4906-a707-439ff8d882a9)
 
 <div align="center"><i>Import Assets screen displaying the modal box where you can upload and download the template.</i></div><br>
 
@@ -163,3 +166,4 @@ Let us know, if the current way for setting up and maintaining an asset hierarch
 _________________
 
 These tools are provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
+![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/abe4bb84-f845-458b-abd3-1dc6ae02a2ef)
