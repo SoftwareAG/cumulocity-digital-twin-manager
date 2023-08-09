@@ -146,6 +146,8 @@ The Asset tree tab is used to view the child assets hierarchy and can also navig
 To import all the assets of a particular asset hierarchy at once, use the bulk import feature. Microservice is being used to download the template and import the assets. To use the Bulk import feature, user must be part of a role that has `Admin` permission level for **Digital twin** type.
 [Configure a role for Bulk Import](#configure-a-role-to-use-the-bulk-import-feature)
 
+`Note: Import assets button is disbaled if user doesn't have permission to create a group.`
+
 ![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/94d1b02e-8a25-4906-a707-439ff8d882a9)
 
 <div align="center"><i>Import Assets screen displaying the modal box where you can upload and download the template.</i></div><br>
