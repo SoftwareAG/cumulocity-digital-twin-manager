@@ -103,13 +103,13 @@ The `Digital Twin Manager` consists of the following features, which support you
 
 * `Asset properties` - Create your own asset properties (simple or complex) to define how data should be stored on an asset
 * `Asset models` - Define asset models to describe the blueprint of your assets
-* `Localization` - Dynamically translate asset type and custom property descriptions to multiple languages
+* `Localization` - Dynamically translate asset model and asset property descriptions to multiple languages
 * `Asset tree` - View and navigate to the subassets page of the asset hierarchy.
 * `Bulk import` - To import the entire asset hierarchy with all the assets at once.
 
 ### Asset properties
 
-The Asset properties can be used to create your own asset properties to define how data should be stored on an asset. These asset properties can be either complex (nested object) or simple (key-value pair). Furthermore, you can choose a specific data type for each property you define. As of now, the Asset properties supports following data types: Text, Number, Date Picker, Enumeration, Boolean.
+The Asset properties can be used to create your own properties to define how data should be stored on an asset. These asset properties can be either complex (nested object) or simple (key-value pair). Furthermore, you can choose a specific data type for each property you define. As of now, the Asset properties supports following data types: Text, Number,File Upload Date Picker, Enumeration, Boolean.
 
 ![image](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/assets/107403521/9ccb90fe-4514-4af0-93cb-cf331599c739)
 
