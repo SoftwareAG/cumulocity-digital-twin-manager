@@ -36,7 +36,7 @@ and can be downloaded.
 
 ### For installation of web application:
 
-1. Download dtm-ui-10xx.x.x.zip from the [release section](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/releases)
+1. Download dtm-ui.zip from the [release section](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/releases)
 2. Open the `Administration` application in your Cumulocity tenant
 3. Navigate to `Ecosystem` --> `Applications`
 4. Click on `Add application`
@@ -51,7 +51,7 @@ If you want to use `Import assets` functionality, then the microservice needs to
 
 ### For installation of microservice:
 
-1. Download dtm-ms-10xx.x.x.zip from the [release section](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/releases)
+1. Download dtm-ms.zip from the [release section](https://github.com/SoftwareAG/cumulocity-digital-twin-manager/releases)
 2. Open the `Administration` application in your Cumulocity tenant
 3. Navigate to `Ecosystem` --> `Microservice`
 4. Click on `Add microservice`
