@@ -1,4 +1,6 @@
 # Cumulocity Digital Twin Manager
+${\color{red}The \ open-source \ release \ of \ DTM \ has \ been \ discontinued \ after \ version \ 1019.1.2.\ This \ decision \ was \ made \ because}$
+${\color{red}our \ customers \ now \ benefit \ from \ continuous \ deployment, \ which \ enables \ them \ to \ access \ changes \ much \ faster.}$
 
 ## Table of Contents
 - [Overview](#overview)
