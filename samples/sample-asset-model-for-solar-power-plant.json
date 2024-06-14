@@ -1,4 +1,7 @@
 {
+  "name": "Solar Power Plant",
+  "description": "",
+  "tags": ["SAG", "DTM"],
   "assetModels": [
     {
       "c8y_IsAssetType": {
