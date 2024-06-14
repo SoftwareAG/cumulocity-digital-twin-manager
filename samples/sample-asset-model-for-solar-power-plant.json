@@ -1,0 +1,730 @@
+{
+  "assetModels": [
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "id": "3617294"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "attract-customers",
+          "category": "office"
+        },
+        "properties": [
+          {
+            "id": "9816311"
+          }
+        ]
+      },
+      "id": "9316321",
+      "label": "Customer",
+      "name": "customer",
+      "description": "Customers which can also have multiple sites or only one",
+      "c8y_Global": {},
+      "depth": 0
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "id": "4116319"
+          },
+          {
+            "id": "4017292"
+          },
+          {
+            "id": "1316320"
+          },
+          {
+            "id": "6217293"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "waypoint-map",
+          "category": "location1"
+        },
+        "properties": [
+          {
+            "id": "9816311"
+          },
+          {
+            "id": "2116312"
+          },
+          {
+            "id": "3317287"
+          },
+          {
+            "id": "4116314"
+          },
+          {
+            "id": "772206"
+          }
+        ]
+      },
+      "id": "3617294",
+      "label": "Site",
+      "name": "customer_premise",
+      "description": "Site which can be a ground or rooftop or even a lake with floating power plant",
+      "c8y_Global": {},
+      "depth": 1
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "id": "9817290"
+          },
+          {
+            "id": "1917289"
+          },
+          {
+            "id": "2316316"
+          },
+          {
+            "id": "9916317"
+          },
+          {
+            "id": "4517291"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "greentech",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "isRequired": true,
+            "id": "9816311"
+          },
+          {
+            "isRequired": true,
+            "id": "4816313"
+          },
+          {
+            "isRequired": true,
+            "id": "4117286"
+          },
+          {
+            "isRequired": true,
+            "id": "1017284"
+          },
+          {
+            "isRequired": true,
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "4116319",
+      "label": "Solar Power Plant",
+      "name": "solar_power_plant",
+      "description": "Represents the whole solar power plant consisting of all the other items within the plant",
+      "c8y_Global": {},
+      "depth": 2
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "invoice",
+          "category": "office"
+        },
+        "properties": [
+          {
+            "isRequired": true,
+            "id": "1217285"
+          },
+          {
+            "id": "1017284"
+          },
+          {
+            "id": "4116314"
+          },
+          {
+            "isRequired": true,
+            "id": "5416315"
+          },
+          {
+            "isRequired": true,
+            "id": "4816313"
+          },
+          {
+            "isRequired": true,
+            "id": "3317288"
+          }
+        ]
+      },
+      "id": "9817290",
+      "label": "Inverters",
+      "name": "inverters",
+      "description": "Solar inverters which can be of various types including on-grid, off-grid, and hybrid",
+      "c8y_Global": {},
+      "depth": 3
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "smartphone-ram",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "isRequired": true,
+            "id": "1217285"
+          },
+          {
+            "id": "5416315"
+          },
+          {
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "1917289",
+      "label": "Energy Meter",
+      "name": "energy_meter",
+      "description": "Energy meters of different types which are installed at various locations within the power plant",
+      "c8y_Global": {},
+      "depth": 4
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "sensor",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "id": "9816311"
+          },
+          {
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "2316316",
+      "label": "Sensors",
+      "name": "sensors",
+      "description": "Consist of different types of sensors which are used to monitor the weather or health of the power plant",
+      "c8y_Global": {},
+      "depth": 4
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "air-quality",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "id": "1217285"
+          },
+          {
+            "id": "5416315"
+          },
+          {
+            "id": "1017284"
+          },
+          {
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "9916317",
+      "label": "String Monitoring Unit",
+      "name": "string_monitoring_unit",
+      "description": "String monitoring units used to measure the currents generated in each string",
+      "c8y_Global": {},
+      "depth": 3
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "charging-battery",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "id": "1217285"
+          },
+          {
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "4517291",
+      "label": "Battery Storage",
+      "name": "battery_storage",
+      "description": "Battery storage to measure the health of batteries and the energy being stored as well consumed from it",
+      "c8y_Global": {},
+      "depth": 3
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "id": "1917289"
+          },
+          {
+            "id": "2316316"
+          },
+          {
+            "id": "4816318"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "quick-mode-on",
+          "category": "userInterface"
+        },
+        "properties": [
+          {
+            "id": "9816311"
+          }
+        ]
+      },
+      "id": "4017292",
+      "label": "Grid",
+      "name": "grid",
+      "description": "To capture measure power consumption and export via grid",
+      "c8y_Global": {},
+      "depth": 2
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "isRequired": false,
+            "id": "1917289"
+          },
+          {
+            "id": "2316316"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "depot",
+          "category": "city"
+        },
+        "properties": [
+          {
+            "id": "4816313"
+          },
+          {
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "4816318",
+      "label": "Transformer",
+      "name": "transformer",
+      "description": "To keep a health check of Transformer",
+      "c8y_Global": {},
+      "depth": 3
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "id": "1917289"
+          },
+          {
+            "id": "2316316"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "plug",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "id": "9816311"
+          }
+        ]
+      },
+      "id": "1316320",
+      "label": "Load",
+      "name": "load",
+      "description": "asset to represent load to capture power consumption",
+      "c8y_Global": {},
+      "depth": 2
+    },
+    {
+      "c8y_IsAssetType": {
+        "allowedAssetTypes": [
+          {
+            "id": "1917289"
+          },
+          {
+            "id": "2316316"
+          }
+        ],
+        "isNoneChildAssetsAllowed": "false",
+        "icon": {
+          "name": "gas",
+          "category": "devicesAndSensors"
+        },
+        "properties": [
+          {
+            "id": "4816313"
+          },
+          {
+            "id": "1217285"
+          },
+          {
+            "id": "4116314"
+          }
+        ]
+      },
+      "id": "6217293",
+      "label": "Diesel Generator",
+      "name": "diesel_generator",
+      "description": "Diesel Generators used for power backup",
+      "c8y_Global": {},
+      "depth": 2
+    }
+  ],
+  "assetProperties": [
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "9816311",
+      "description": "",
+      "label": "Equipment Description",
+      "name": "spp_Description",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Equipment Description",
+        "properties": {
+          "spp_Description": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "key": "spp_Description"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "2116312",
+      "description": "",
+      "label": "Plant Address",
+      "name": "spp_Address",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Plant Address",
+        "properties": {
+          "spp_Address": {
+            "type": "object",
+            "properties": {
+              "pincode": {
+                "type": "string",
+                "title": "Pincode",
+                "order": 4
+              },
+              "country": {
+                "type": "string",
+                "title": "Country",
+                "order": 5
+              },
+              "city": {
+                "type": "string",
+                "title": "City",
+                "order": 2
+              },
+              "address_line_1": {
+                "type": "string",
+                "title": "Address Line 1",
+                "order": 0
+              },
+              "address_line_2": {
+                "type": "string",
+                "title": "Address Line 2",
+                "order": 1
+              },
+              "state": {
+                "type": "string",
+                "title": "State",
+                "order": 3
+              }
+            }
+          }
+        },
+        "required": [],
+        "key": "spp_Address"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "3317287",
+      "description": "To capture the timezone of the location1 where site is located",
+      "label": "Plant Timezone",
+      "name": "spp_timezone",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Plant Timezone",
+        "properties": {
+          "spp_timezone": {
+            "default": "GMT +01:00",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "key": "spp_timezone"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "4116314",
+      "description": "",
+      "label": "Equipment Image",
+      "name": "spp_Image",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Equipment Image",
+        "properties": {
+          "spp_Image": {
+            "contentMediaType": "jpg,png,jpeg",
+            "maxSize": 2,
+            "type": "file"
+          }
+        },
+        "required": [],
+        "key": "spp_Image"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "772206",
+      "description": "",
+      "label": "Location",
+      "name": "c8y_Position",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "title": "Location",
+        "type": "object",
+        "key": "c8y_Position",
+        "properties": {
+          "c8y_Position": {
+            "title": "c8y_Position",
+            "type": "object",
+            "properties": {
+              "lng": {
+                "requiredMinimum": true,
+                "requiredMaximum": true,
+                "maximum": 180,
+                "type": "number",
+                "title": "Longitude",
+                "minimum": -180,
+                "order": 3
+              },
+              "alt": {
+                "type": "number",
+                "title": "Altitude",
+                "order": 1
+              },
+              "lat": {
+                "requiredMinimum": true,
+                "requiredMaximum": true,
+                "maximum": 90,
+                "type": "number",
+                "title": "Latitude",
+                "minimum": -90,
+                "order": 2
+              }
+            }
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "4816313",
+      "description": "Used to capture capacity of a solar power plant or individual inverters",
+      "label": "Maximum Power Output Capacity",
+      "name": "spp_capacity",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Maximum Power Output Capacity",
+        "properties": {
+          "spp_capacity": {
+            "requiredMinimum": true,
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [],
+        "key": "spp_capacity"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "4117286",
+      "description": "Site manager details who is responsible for managing the site",
+      "label": "Site Manager",
+      "name": "spp_site_manager",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Site Manager",
+        "properties": {
+          "spp_site_manager": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "key": "spp_site_manager"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "1017284",
+      "description": "",
+      "label": "Panel Details",
+      "name": "spp_panel_details",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Panel Details",
+        "properties": {
+          "spp_panel_details": {
+            "type": "object",
+            "properties": {
+              "tilt_angle": {
+                "type": "number",
+                "title": "Tilt Angle",
+                "order": 2
+              },
+              "orientation_from_north": {
+                "default": 270,
+                "type": "number",
+                "title": "Orientation from North",
+                "order": 3
+              },
+              "total_nos": {
+                "type": "number",
+                "title": "Total No.s",
+                "order": 4
+              },
+              "brand": {
+                "type": "string",
+                "title": "Brand",
+                "order": 0
+              },
+              "model_no": {
+                "type": "string",
+                "title": "Model No.",
+                "order": 1
+              }
+            }
+          }
+        },
+        "required": [],
+        "key": "spp_panel_details"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "1217285",
+      "description": "",
+      "label": "Brand & Model",
+      "name": "spp_BrandModel",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Brand & Model",
+        "properties": {
+          "spp_BrandModel": {
+            "type": "object",
+            "properties": {
+              "Brand": {
+                "type": "string",
+                "title": "Brand",
+                "order": 0
+              },
+              "Model": {
+                "type": "string",
+                "title": "Model",
+                "order": 1
+              }
+            }
+          }
+        },
+        "required": [],
+        "key": "spp_BrandModel"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "5416315",
+      "description": "",
+      "label": "Equipment Serial Number",
+      "name": "spp_SerialNumber",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Equipment Serial Number",
+        "properties": {
+          "spp_SerialNumber": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "key": "spp_SerialNumber"
+      }
+    },
+    {
+      "c8y_IsAssetProperty": {},
+      "c8y_Global": {},
+      "id": "3317288",
+      "description": "Capture the type of inverter",
+      "label": "Inverter Type",
+      "name": "spp_inverter_type",
+      "type": "c8y_JsonSchema",
+      "c8y_JsonSchema": {
+        "type": "object",
+        "title": "Inverter Type",
+        "properties": {
+          "spp_inverter_type": {
+            "type": "enum",
+            "enum": [
+              "On-Grid Inverter",
+              "Off-Grid Inverter",
+              "Hybrid Inverter"
+            ]
+          }
+        },
+        "required": [],
+        "key": "spp_inverter_type"
+      }
+    }
+  ]
+}
