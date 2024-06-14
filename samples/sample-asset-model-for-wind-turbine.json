@@ -1,4 +1,7 @@
 {
+  "name": "Territory",
+  "description": "",
+  "tags": ["SAG", "DTM"],
   "assetModels": [
     {
       "c8y_IsAssetType": {
