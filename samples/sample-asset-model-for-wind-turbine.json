@@ -1,5 +1,5 @@
 {
-  "name": "Wind Turbine Model",
+  "name": "Wind Turbine",
   "description": "A wind turbine is a asset that converts the kinetic energy of wind into electrical energy.",
   "tags": ["SAG", "DTM"],
   "assetModels": [
