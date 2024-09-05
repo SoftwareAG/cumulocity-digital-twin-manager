@@ -1,5 +1,5 @@
 {
-  "name": "Solar Power Plant Model",
+  "name": "Solar Power Plant",
   "description": "Represents the whole solar power plant consisting of all the other items within the plant",
   "tags": ["SAG", "DTM"],
   "assetModels": [
