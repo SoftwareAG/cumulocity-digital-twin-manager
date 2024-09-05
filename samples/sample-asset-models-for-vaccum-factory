@@ -1,6 +1,6 @@
 {
   "name": "Vaccum Factory",
-  "description": "Sample vaccum factory",
+  "description": "Represents the hierarchy of a factory with vaccum chamber",
   "tags": ["SAG", "DTM"],
   "assetModels": [
     {
@@ -53,8 +53,8 @@
         "properties": []
       },
       "id": "102091181",
-      "label": "Vacuum chamber",
-      "name": "vacuum_chamber",
+      "label": "Vaccum chamber",
+      "name": "vaccum_chamber",
       "description": "",
       "depth": 3,
       "c8y_Global": {}
